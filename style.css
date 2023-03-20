@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    font-family: 'Rajdhani', sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+main{
+    background: linear-gradient(90deg,#f1f1f1 69%,#cecece 100%);
+    width: 515px;
+    height: 600px;
+    margin: 8em auto;
+    border-radius: 10px;
+    
+}
+/*Inicio do Titulo*/
+.title{
+    text-align: center;
+     
+}
+h1{
+    display: inline-block;
+    padding: 2px;
+    font-size: 30px;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid  rgb(62, 39, 118);
+}
+/*Fim do Titulo*/
+
+/*Inicio da Tela da Calculadora*/
+.display__container{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(28, 28, 28);
+    width: 87%;
+    margin: 0 auto;
+    border-radius: 15px;
+    
+}
+.screen{
+    display: block;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 38px;
+    text-align: end;
+    font-weight: bold;
+    
+}
+
+.mini__flex{
+    display: flex;
+    justify-content: start;
+    margin-left: 11%;
+}
+
+.mini__screen{
+    padding:10px 10px;
+    font-size: 20px;
+    background-color: white;
+    height: 20px;
+    width: 20%;
+    text-align: start;
+
+}
+/*Fim da Tela da Calculadora*/
+
+/*Inicio da customização dos botões*/
+.button__container{
+    display: flex;
+    margin-top: 25px;
+   
+}
+
+.number__buttons{
+    text-align: center;
+    flex: 1.6;
+   
+}
+.operation__button{
+    text-align: left;
+    flex: 1;
+    
+}
+
+.button{
+    background-color: rgb(62, 39, 118);
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    margin: 4px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(18, 18, 18);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    background-color: rgb(43, 23, 94);
+}
+
+.button:active {
+    background-color: rgb(13, 0, 44);
+    box-shadow: 0 5px #3c3c3c;
+    transform: translateY(1px);
+}
+
+.button__zero{
+    width: 172px;
+}
+
+#clear{
+    background-color: brown;
+}
+/*Fim da customização dos botões*/
+
+/*Inicio do Rodapé*/
+footer{
+    background: #f1f1f1;
+    text-align: center;
+    padding: 7px;
+    color: black;
+    padding-bottom: 22px;
+}
+
+footer a{
+    padding: 0 15px;
+}
+/*Fim do Rodapé*/
